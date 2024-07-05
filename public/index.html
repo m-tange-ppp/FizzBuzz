@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <title>FizzBuzz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>FizzBuzz</h1>
+
+    <p>現在の状況</p>
+    <p><span id="msg-answer">(待っています)</span></p>
+    <p>
+        <span id="msg-system">START を 押して開始してください</span>
+    </p>
+
+    <hr />
+    <p>
+        <input type="number" id="input-num" placeholder="数" />
+        <button type="button" onclick="fetchAPIWithNumber()">数で答える</button>
+    </p>
+    <p>
+        <button type="button" onclick="fetchAPI('Fizz')">Fizz</button>
+        <button type="button" onclick="fetchAPI('Buzz')">Buzz</button>
+        <button type="button" onclick="fetchAPI('FizzBuzz')">FizzBuzz</button>
+    </p>
+    <hr />
+
+    <button type="button" class="button-start" onclick="start()">START</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+body {
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+input[type="number"] {
+    font-size: large;
+    width: 70px;
+    height: 1.9rem;
+    text-align: center;
+}
+
+#msg-system {
+    color: red;
+}
+
+#msg-answer {
+    display: block;
+    padding: 20px;
+    font-size: xx-large;
+    border: solid 1px;
+}
+
+button {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: turquoise;
+}
+
+.button-start {
+    background-color: greenyellow;
+}
